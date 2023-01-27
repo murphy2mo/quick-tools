@@ -1,0 +1,13 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "quick-tools",
+  "description": "一组快速开发的小工具",
+  "appid": "touristappid",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
+}

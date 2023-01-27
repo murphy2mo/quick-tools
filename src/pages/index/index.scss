@@ -1,0 +1,55 @@
+.index {
+    height: 100vh;
+    position: relative;
+    margin: 0 auto;
+    border: #eeeeee 0.1px solid;
+}
+
+
+.windows {
+    position: absolute;
+    width: 320px;
+    min-height: 160px;
+    background-color: #bebebe;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+    .title {
+        font-size: 22px;
+        flex: 1;
+        text-align: center;
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: space-around;
+        font-size: 0.8rem;
+    }
+
+    .button {
+        display: block;
+        overflow: hidden;
+        position: relative;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 14px;
+        padding-right: 14px;
+        border-width: 0;
+        border-radius: 5px;
+        width: 100%;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        outline: 0;
+        background-color: #f8f8f8;
+        line-height: 2.55555556;
+        text-decoration: none;
+        text-align: center;
+        font-size: 18px;
+        color: #000;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+}
